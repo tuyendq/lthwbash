@@ -41,6 +41,7 @@ $1: 1st argument
 $2: 2nd argument  
 $3: 3rd argument  
 
-$#: number of arguments 
+$#: number of arguments  
 $@: all arguments  
+
 
