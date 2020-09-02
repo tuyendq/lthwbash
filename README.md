@@ -4,7 +4,11 @@
 ```bash
 #!/usr/bin/env bash
 # File: filename.sh
-
+```
+or
+```bash
+#!/bin/bash
+# File: filename.sh
 ```
 
 ## Comment
