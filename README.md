@@ -35,3 +35,10 @@ let number_of_products=$number_of_products+5  # NO space between
 ```bash
 current_path=$(pwd)
 ```
+## Argument
+$1: 1st argument
+$2: 2nd argument
+$3: 3rd argument
+
+$#: number of arguments
+$@: all arguments
