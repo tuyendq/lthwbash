@@ -51,3 +51,11 @@ current_path=$(pwd)
 ```bash
 expr 4 + 10
 ```
+
+## Array
+```bash
+my_fruits=("Apple" "Orange" "Banana")
+echo ${my_fruits[@]}
+echo ${#my_fruits[@]}
+echo ${my_fruits[1]}
+```
