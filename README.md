@@ -20,11 +20,21 @@ or
 ~/.bash_profile
 ~/.bash_history
 
+## Argument
+$0: script file  
+$1: 1st argument  
+$2: 2nd argument  
+$3: 3rd argument  
+
+$#: number of arguments  
+$@: all arguments  
+
 ## Variables
 ```bash
 circle_area=10  # NO space between varialbe name and value
 
-my_name="Tuyen Dang"
+my_name=$1
+my_age=$2
 
 number_of_products=100
 
@@ -35,13 +45,9 @@ let number_of_products=$number_of_products+5  # NO space between
 ```bash
 current_path=$(pwd)
 ```
-## Argument
-$0: script file  
-$1: 1st argument  
-$2: 2nd argument  
-$3: 3rd argument  
-
-$#: number of arguments  
-$@: all arguments  
 
 
+## Numeric data
+```bash
+expr 4 + 10
+```
