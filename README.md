@@ -59,3 +59,15 @@ echo ${my_fruits[@]}
 echo ${#my_fruits[@]}
 echo ${my_fruits[1]}
 ```
+
+## case
+```bash
+case $1 in
+  Monday|Tuesday|Wednesday|Thursday|Friday)
+    echo "Today is weekday." ;;
+  Saturday|Sunday)
+    echo "Great! Weekend!" ;;
+  *)
+    echo "Uh oh, not day." ;;
+esac
+```
