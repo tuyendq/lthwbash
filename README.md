@@ -30,6 +30,9 @@ $#: number of arguments
 $@: all arguments  
 
 ## Variables
+
+Variable name is **case sensitive**.
+
 ```bash
 circle_area=10  # NO space between varialbe name and value
 
@@ -70,4 +73,25 @@ case $1 in
   *)
     echo "Uh oh, not day." ;;
 esac
+```
+
+## Function
+
+***Important***: all variables in bash are global by default.
+
+Bash function return 0 (success) or [1-255] (failed)
+
+
+```bash
+function_name () {
+  # code
+  # return ...
+}
+```
+
+```bash
+function function_name {
+  # code
+  # return ...
+}
 ```
