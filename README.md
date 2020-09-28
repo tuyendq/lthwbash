@@ -63,6 +63,14 @@ echo ${#my_fruits[@]}
 echo ${my_fruits[1]}
 ```
 
+## if
+```bash
+if [ condition ]
+then
+  commands
+fi
+```
+
 ## case
 ```bash
 case $1 in
