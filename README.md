@@ -78,6 +78,12 @@ then
 fi
 ```
 
+```bash
+if [ condition ]; then
+  commands
+fi
+```
+
 ## case
 ```bash
 case $1 in
