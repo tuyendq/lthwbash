@@ -116,3 +116,7 @@ function function_name {
   # return ...
 }
 ```
+
+## References
+
+[THM | Bash Scripting](https://tryhackme.com/room/bashscripting)  
